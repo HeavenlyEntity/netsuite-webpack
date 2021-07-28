@@ -62,5 +62,7 @@ module.exports = {
   node: {
     process: false,
     Buffer: false,
+    fs: 'empty',
+    child_process: 'empty'
   },
 };
